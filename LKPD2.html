@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// LKPD 2
+// No.1 Gaji karyawan
+let gajipokok = 500000;
+let tunjangan = 20/100 * gajipokok;
+let pajak = 15/100 * (gajipokok + tunjangan);
+let gajibersih = gajipokok + tunjangan - pajak;
+console.log('Radit Simanjutak =',gajipokok)
+console.log('Tunjangan =',tunjangan)
+console.log('Pajak =',pajak)
+console.log('Gaji Bersih =',gajibersih)
+
+// No.2 Konversi jam/menit ke detik
+let hh = 1;
+let mm = 30;
+let ss = 40;
+let hasil = hh * 3600 + mm * 60 + ss;
+console.log('1 jam 30 menit 40 detik adalah',hasil)
+
+// No.3 Konversi detik ke jam menit detik
+let jam = 5440 / 3600;
+let menit = 5440 % 60;
+let detik = 40;
+let hasiljam = Math.floor(jam) 
+console.log(jam,'Jam',menit,'Menit',detik,'Detik')
+    </script>
+</body>
+</html>
